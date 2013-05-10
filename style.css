@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'novecento';
+	font-weight:bold;
+	src: local('novecento'), local('novecento'), url('../fonts/novecentowide-bold-webfont.woff') format('woff');
+	}
+	
+@font-face {
+	font-family: 'novecento';
+	font-weight:normal;
+	src: local('novecento'), local('novecento'), url('../fonts/novecentowide-light-webfont.woff') format('woff');
+	}
+	
+body{
+	background:#ddd url('bg01.gif') repeat top left;
+	margin:0px;
+	}
