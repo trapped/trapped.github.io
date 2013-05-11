@@ -47,7 +47,14 @@ body{
 	color:#fff;
 	display:inline-block;
 	}
-	
+#news {
+	border-style:solid;
+	border-width:1px;
+	width:602px;
+	background:#ddd;
+	font-family: Helvetica;
+	color:#000
+	}
 	
 #footer {
 	font-family:Calibri;
