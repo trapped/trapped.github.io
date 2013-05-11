@@ -3,16 +3,27 @@
 @font-face {
 	font-family: 'novecento';
 	font-weight:bold;
-	src: local('novecento'), local('novecento'), url('../fonts/novecentowide-bold-webfont.woff') format('woff');
+	src: local('novecento'), local('novecento'), url('novecentowide-bold-webfont.woff') format('woff');
 	}
 	
 @font-face {
 	font-family: 'novecento';
 	font-weight:normal;
-	src: local('novecento'), local('novecento'), url('../fonts/novecentowide-light-webfont.woff') format('woff');
+	src: local('novecento'), local('novecento'), url('novecentowide-light-webfont.woff') format('woff');
 	}
 	
 body{
 	background:#ddd url('bg01.gif') repeat top left;
 	margin:0px;
+	}
+
+#title1 {
+	width:800px;
+	height:37px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:33px;
+	line-height:37px;
+	font-weight:bold;
+	background:#ddd url('bg02.gif') repeat top left;
+	color:#fff
 	}
