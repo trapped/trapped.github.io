@@ -37,6 +37,12 @@ body{
 	color:#fff;
 	display:inline-block;
 	}
+#wikip1 {
+	display:inline-block;
+	}
+#wikip2 {
+	display:inline-block;
+	}
 #link {
 	width:400px;
 	height:30px;
@@ -45,5 +51,20 @@ body{
 	line-height:30px;
 	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
 	color:#fff;
+	display:inline-block;
+	}
+#link1 {
+	display:inline-block;
+	}
+#link2 {
+	display:inline-block;
+	}
+#link3 {
+	display:inline-block;
+	}
+#link4 {
+	display:inline-block;
+	}
+#link5 {
 	display:inline-block;
 	}
