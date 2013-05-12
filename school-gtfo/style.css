@@ -48,6 +48,7 @@ body{
 	display:inline-block;
 	}
 #img {
+	width:400px;
 	border: 5px solid black;
 	-webkit-border-image: url(bg02.gif) 5 5 5 5 round round;
 	-moz-border-image: url(bg02.gif) 5 5 5 5 round round;
