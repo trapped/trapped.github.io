@@ -27,7 +27,7 @@ body{
 	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
 	color:#fff
 	}
-#wikip {
+#wikip1 {
 	width:200px;
 	height:30px;
 	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
@@ -38,14 +38,19 @@ body{
 	display:inline-block;
 	}
 #wikip1 {
+	width:200px;
+	height:30px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
 	display:inline-block;
 	}
-#wikip2 {
-	display:inline-block;
-	}
+
 #link {
 	width:400px;
-	height:30px;
+	height:200px;
 	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
 	font-size:20px;
 	line-height:30px;
