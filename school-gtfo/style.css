@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'novecento';
+	font-weight:bold;
+	src: local('novecento'), local('novecento'), url('/school-gtfo/novecentowide-bold-webfont.woff') format('woff');
+	}
+	
+@font-face {
+	font-family: 'novecento';
+	font-weight:normal;
+	src: local('novecento'), local('novecento'), url('/school-gtfo/novecentowide-light-webfont.woff') format('woff');
+	}
+	
+body{
+	background:#ddd url('/school-gtfo/bg01.gif') repeat top left;
+	margin:0px;
+	}
+
+#titolo {
+	width:800px;
+	height:37px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:33px;
+	line-height:37px;
+	font-weight:bold;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff
+	}
+#wikip {
+	width:400px;
+	height:30px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
+	display:inline-block;
+	}
+#link {
+	width:400px;
+	height:30px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
+	display:inline-block;
+	}
