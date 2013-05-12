@@ -53,6 +53,9 @@ body{
 	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
 	display:inline-block;
 	}
+#img0 {
+	padding-top:10px;
+}
 #link {
 	width:400px;
 	height:180px;
