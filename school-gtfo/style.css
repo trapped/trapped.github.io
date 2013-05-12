@@ -47,7 +47,12 @@ body{
 	color:#fff;
 	display:inline-block;
 	}
-
+#img {
+	border: 5px solid black;
+	-webkit-border-image: url(bg02.gif) 5 5 5 5 round round;
+	-moz-border-image: url(bg02.gif) 5 5 5 5 round round;
+	border-image: url(bg02.gif) 5 5 5 5 round round;
+	}
 #link {
 	width:400px;
 	height:180px;
