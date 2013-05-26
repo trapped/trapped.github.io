@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'novecento';
+	font-weight:bold;
+	src: local('novecento'), local('novecento'), url('/school-gtfo/novecentowide-bold-webfont.woff') format('woff');
+	}
+	
+@font-face {
+	font-family: 'novecento';
+	font-weight:normal;
+	src: local('novecento'), local('novecento'), url('/school-gtfo/novecentowide-light-webfont.woff') format('woff');
+	}
+	
+body{
+	background:#ddd url('/school-gtfo/bg01.gif') repeat top left;
+	margin:0px;
+	}
+
+#titolo {
+	width:800px;
+	height:37px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:33px;
+	line-height:37px;
+	font-weight:bold;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff
+	}
+#wikip1 {
+	width:300px;
+	height:30px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
+	display:inline-block;
+	}
+#wikip2 {
+	width:300px;
+	height:30px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
+	display:inline-block;
+	}
+#img {
+	width:420px;
+	height:420px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	display:inline-block;
+	}
+#img0 {
+	padding-top:10px;
+}
+#link {
+	width:400px;
+	height:180px;
+	font-family: 'novecento' , Helvetica, Calibri, sans-serif;
+	font-size:20px;
+	line-height:30px;
+	background:#ddd url('/school-gtfo/bg02.gif') repeat top left;
+	color:#fff;
+	display:inline-block;
+	}
+#link1 {
+	display:inline-block;
+	}
+#link2 {
+	display:inline-block;
+	}
+#link3 {
+	display:inline-block;
+	}
+#link4 {
+	display:inline-block;
+	}
+#link5 {
+	display:inline-block;
+	}
+#footer {
+	font-family:Calibri;
+	}
