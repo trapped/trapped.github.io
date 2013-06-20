@@ -58,6 +58,7 @@ body{
 #desc {
     font-family:Calibri;
     text-align:left;
+    right:-10px;
     }
 	
 #footer {
