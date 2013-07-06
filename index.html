@@ -9,13 +9,31 @@
 <br>
 <center>
 <div id="repos"><a href="http://github.com/trapped/rotmg_svr-master/" target="_blank"><div id="repos1">RotMG server emulation project</div></a>
-<a href="http://github.com/trapped/" target="_blank"><div id="repos2">GitHub profile</div></div></a>
+<a href="http://github.com/trapped/" target="_blank"><div id="repos2">GitHub profile</div></a></div>
+</center>
+<script src="textchange.js"></script>
 <center>
-<div id="news">
-<tr>
-<a href="lastcommit" target="_blank"><font color="black">RotMG server emu v2.5.9</font></a>
-<font size="2">Starting to introduce guilds!</font>
-</tr>
+<div id="news" onLoad="loadcommits()">
+<div id="newsload">
+<center></center>
 </div>
+    <div id="commits" style="text-align:left;"></div>
+<script>
+    window.onload = function () { loadcommits() };
+    setInterval(function () { newsloader() }, 100);
+    function newsloader() {
+        var commits = this.document.getElementById("commits");
+        var newsload = this.document.getElementById("newsload");
+        if (commits.innerHTML == "") {
+            newsload.innerHTML = "Loading...";
+        }
+        else {
+            newsload.innerHTML = "";
+        }
+    }
+</script>
+</div>
+</center>
+
 </body>
 <div id="footer">&copy; 2013 Trapped - I do not assume any responsibility for the content of this page and the content related to it.</div>

@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 @font-face {
 	font-family: 'novecento';
@@ -50,11 +50,16 @@ body{
 #news {
 	border-style:solid;
 	border-width:1px;
-	width:602px;
+    font-family:Calibri;
+	width:650px;
 	background:#ddd;
-	font-family: Helvetica;
 	color:#000
 	}
+#desc {
+    font-family:Calibri;
+    text-align:left;
+    right:-10px;
+    }
 	
 #footer {
 	font-family:Calibri;
