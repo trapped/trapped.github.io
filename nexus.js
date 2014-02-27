@@ -25,7 +25,7 @@ function getStyle() {
 function setStyle(style) {
 	localStorage["style"] = style;
 	$("body").fadeOut(function() {
-		document.getElementById("stylesheet").setAttribute("href", "http://grid12.tk/"+style+".css");
+		document.getElementById("stylesheet").setAttribute("href", "http://http://trapped.github.io//"+style+".css");
 		$(this).fadeIn();
 	});
 }
