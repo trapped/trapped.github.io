@@ -59,11 +59,6 @@ h1 {
   font-weight: bold;
 }
 
-h1[big] {
-  font: 76px 'PT Sans Narrow';
-  font-weight: bold;
-}
-
 h2 {
   font: 28px 'PT Sans Narrow';
   font-weight: bold;
@@ -156,4 +151,9 @@ div[spaced] {
 div[text] {
   font-family: 'PT Serif';
   text-align: justify;
+}
+
+div[big] {
+  font: 105px 'PT Sans Narrow';
+  font-weight: bold;
 }
