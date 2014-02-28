@@ -154,6 +154,7 @@ div[text] {
 }
 
 div[big] {
-  font: 105px 'PT Sans Narrow';
+  font: 250px 'PT Sans Narrow';
   font-weight: bold;
+  text-align: center;
 }
